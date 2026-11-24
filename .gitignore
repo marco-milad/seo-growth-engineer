@@ -1,0 +1,22 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Local environment and credentials (never commit secrets)
+.env
+.env.*
+*.key
+credentials*.json
+
+# Script safety artifacts (prioritize_findings.py backups / temp files)
+*.bak-*
+.tmp-findings-*
+
+# Engagement data and script output (client data must never be committed)
+site-check-output/
+seo-engagement/
+
+# Logs and OS files
+*.log
+Thumbs.db
+.DS_Store
